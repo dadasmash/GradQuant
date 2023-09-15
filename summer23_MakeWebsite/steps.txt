@@ -1,0 +1,32 @@
+credit: https://www.youtube.com/watch?v=jplSmg2Z-Tw
+
+1. Fork repository from: https://github.com/academicpages/acad...
+2. Click on the repository’s ‘Settings’ and change the repo name to "[your GitHub username].github.io".
+3. Clone it locally.
+git clone https://github.com/dadasmash/dagong.github.io
+ls 
+cd "C:\UCR TA\GradQaunt\Workshop\Summer2023\Webpage\dagong.github.io"
+
+
+
+4. Start making changes to the content on the page.
+5. make some changes:
+a). _config.yml: Change the main stuff like name, description, bio and some social media handles like Twitter and Youtube.
+b). _data/navigation.yml: Add or remove navigation titles based on your needs.
+c). Images/profile.png: Replace profile.png with your profile picture (keeping the same filename).
+d). _pages/about.md: Update individual pages like the ‘about’ page. Do the same for other pages as well such as _pages/publications. I just commented out all existing content, and made a bullet point list of publications for different themes of research. 
+e). _pages/cv.md: If you want to add pdf files to your page, you can put them in the files/ folder. And link to them in the markdown pages using e.g. : [Download File Here] (https://ikitcheng.github.io/files/cv.pdf
+f). check https://github.com/dadasmash/dagong.github.io for more info
+
+git status
+git add 
+git commit 
+git status
+git push
+
+
+
+other examples: 
+https://pascalmichaillat.org/
+https://matheusfacure.github.io/
+https://github.com/nlp-grp/nlp-grp.github.io
